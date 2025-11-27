@@ -1,0 +1,26 @@
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/font/Inter_28pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Inter';
+    src: url('../fonts/font/Inter_28pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('../fonts/font/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+/* Icons */
+@font-face{
+    font-family: 'icons';
+    src: url('../fonts/icon/icomoon.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'okufont';
+    src: url('../fonts/icon/oku.ttf') format('truetype');
+    font-weight: 400;
+}

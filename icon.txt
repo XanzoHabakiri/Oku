@@ -1,0 +1,4 @@
+style -  e900
+star  -  e838
+menu  -  ea19
+monitoring - f190
