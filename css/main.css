@@ -334,18 +334,16 @@
         row-gap: 50px;
         margin: 0;
         backdrop-filter: blur(5px);
-        transform: translateX(-100%);
+        /* transform: translateX(-100%); */
         transition: transform 0.3s ease;
     }
-        .navbar:hover .navbar-list{
-        transform: translateX(0);
+    .active{
+        transform: translateX(-100%);
     }
     .logo{
         transition: transform 0.5s ease;
+        transform: scale(1);
     }
-        .navbar:hover .logo{
-            transform: scale(0);
-        }
 
     .buttons{
         display: none;
