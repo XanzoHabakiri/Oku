@@ -8,7 +8,7 @@
 </head>
 <body class="wrapper">
     <nav class="navbar">
-            <a href="#!" class="logo">
+    <a href="#!" class="logo">
         <img src="img/Vector.png" alt="">
     </a>  
       <button class="menu-btn">
@@ -32,25 +32,77 @@
         <div class="content-container">
         <p>The companion app for your book shelf</p>
         <a href="#!" class="sign reg">Create your account</a>
-        <h1>Already a member? Sign in.</h1>           
+        <h1>Already a member? <span>Sign in.</span> </h1>           
         </div>
         <img src="img/snake.png" alt="">
-        <div>
-            <!-- <p class="oku-content">👋Readng is now</p><img src="img/icomoon.svg" alt="#!" class="svg"> -->
-
+        <div class="about-oku">
+            <p class="oku-content">Readng is now</p>
+            <a href="#!">Learn more &#8594;
+            <span></span>
+            <span></span>                
+            </a>
         </div>
         
     </header>
-    <div class="content-section">
-        <div class="content-item">
+    <section class="section">
+        <div class="section__items">
+            <div class="section__item full">
+                <span class="icon-read"></span>
+                <h2 class="section__item-title">Track your reading and build your library</h2>
+                <img src="img/full.png" alt="" class="section__item-bottom">
+            </div>
+            <div class="section__item half">
+                <img src="img/down half.png" alt="" class="section__item-top">
+                <h2 class="section__item-title">Stay on track with a reading goal</h2>
+                <p class="section__item-text">If you're trying to kickstart a reading habit or just want to challenge yourself, motivate yourself to stick to it with a reading goal.</p>
+                <span class="icon-indet"></span>
+            </div>
+            <div class="section__item half">
+                <span class="icon-star"></span>
+                <h2 class="section__item-title type1">Discover your next favourite book</h2>
+                <p class="section__item-text h11">Connect with your friends to see what they're reading, or explore recommendations from the wider community.</p>
+                <img src="img/up half.png" alt="" class="section__item-bottom">
+            </div>
+            <div class="section__item full">
+                <span class="icon-monitoring"></span>
+                <h2 class="section__item-title">Unlock your personal statistics</h2>
+                <img src="img/statistics.png" alt="" class="section__item-bottom">
+            </div>
+            <div class="section__item half">
+                <span class="icon-style"></span>
+                <h2 class="section__item-title type1">Create custom collections</h2>
+                <img src="img/one.png" alt="" class="section__item-bottom img-type1">
+            </div>
+            <div class="section__item half">
+                <span class="icon-eye"></span>
+                <h2 class="section__item-title type2">Read community reviews or leave one of your own</h2>
+                <img src="img/two.png" alt="" class="section__item-bottom img-type2">
+            </div>
+        </div>
+        <!-- <div class="content-item">
             <img src="img/Boy.jpg" alt="#!">
             <div class="content-item-text">
                 <span class="icon-read"></span>
                 <h2>Track your reading</h2>
                 <p>Keep a log of all the books you read and want to read. Add notes and quotes to remember your favorite parts.</p>
             </div>
+        </div> -->
+    </section>
+    <main class="main">
+        <div class="testimonials">
+            <h2 class="testimonials__title"></h2>
+            <p class="testimonials__text"></p>
+            <div class="testimonials__users-female">
+                <img src="img/Girl.jpg" alt="">
+                <a href=""></a>
+                <span></span>
+                <span></span>
+                <p></p>
+                
+            </div>
         </div>
-    </div>
-    <script src="main.js"></script>
+    </main>
+    <!-- <script src="main.js"></script> -->
+    <script src="contructor.js"></script>
 </body>
 </html>
