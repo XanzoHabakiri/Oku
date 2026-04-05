@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="wrapper">
+    <div class="modal">
+            <div class="modal__content">
+                <h2 class="modal__content-title">Sign in to Oku</h2>
+                <form action="" class="modal__content-form">
+                    <label for="email">
+                        <span>Email</span>
+                        <input type="email" placeholder="Email address" required>
+                    </label>
+                    <label for="password">
+                        <span>Password</span>
+                        <input type="password" placeholder="Password" required>
+                    </label>
+                    <button class="register modal__content-btn">Sign in</button>
+                </form>
+                <p class="modal__content-text">Don't have an account? <a href="#!"><span>Join now.</span></a></p>
+            </div>
+    </div>
     <nav class="navbar">
     <a href="#!" class="logo">
         <img src="img/Vector.png" alt="">
@@ -16,7 +33,7 @@
     <span></span>
     <span></span>
 </button>
-    <ul class="navbar-list ">
+    <ul class="navbar-list active">
         <li><a href="#!">Pricing</a></li>
         <li><a href="#!">Blog</a></li>
         <li><a href="#!">Twitter</a></li>
@@ -24,15 +41,15 @@
     </ul>
 
     <div class="buttons">
-        <a href="#!" class="register btn">Sign in</a>
-        <a href="#!" class="sign btn">Join</a>
+        <a href="#!" class="sign btn">Sign in</a>
+        <a href="#!" class="register btn">Join</a>
     </div>
     </nav>
     <header class="header">
         <div class="content-container">
         <p>The companion app for your book shelf</p>
-        <a href="#!" class="sign reg">Create your account</a>
-        <h1>Already a member? <span>Sign in.</span> </h1>           
+        <a href="#!" class="register reg">Create your account</a>
+        <h1>Already a member? <a href="#!"><span>Sign in.</span></a></h1>           
         </div>
         <img src="img/snake.png" alt="">
         <div class="about-oku">
@@ -138,7 +155,7 @@
         <h1 class="testimonials__title">Ready to join us?</h1>
         <p class="testimonials__text">Oku is the companion app for your bookshelf.</p>
         <p class="footer__text">Become a member for free to track, rate & review your favourite books with a community of others.</p>
-        <button class="sign footer__btn">Create a free account</button>
+        <button class="register footer__btn">Create a free account</button>
         <div class="footer__links">
             <ul class="footer__links-list">
                 <li><a href="#!">Pricing</a></li>
@@ -150,6 +167,7 @@
             <p>Copyright © 2020 Readng BV.</p>
         </div>
     </footer>
+    
     <!-- <script src="main.js"></script> -->
     <script src="contructor.js"></script>
 </body>
