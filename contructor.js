@@ -7,8 +7,12 @@ class Navbar {
         this.isOpen = true
         this.menu.addEventListener('click', () => {this.openMenu()})
         window.addEventListener('resize',() =>{ this.changeWind()})
+        if(this.isOpen && this.navbar.offsetWidth < 992){
+            this.Logo.style.transform = `scale(${0})`;
+        }
     }
     openMenu(){
+        this.changeWind()
         if(this.isOpen){
         const active = document.querySelector('.active')
         active.style.transform = `translateX(${-100}%)`;
@@ -20,6 +24,7 @@ class Navbar {
         active.style.transform = `translateX(${0})`;
         this.Logo.style.transform = `scale(${0})`;
         this.isOpen = !this.isOpen;
+        
     }
     }
     changeWind(){
@@ -31,7 +36,7 @@ class Navbar {
             active.classList.remove('active')
         }
         else{
-            this.navbar_list.classList.add('active')
+            this.navbar_list.classList.add('active');
         }
     }
 }
