@@ -111,8 +111,8 @@ a{
     z-index: 4;
 }
 .modal__content{
-    width: 350px;
-    height: 350px;
+    width: 390px;
+    height: 400px;
     background: #ffffff;
     border-radius: 25px;
     display: flex;
@@ -164,13 +164,18 @@ a{
     border-radius: 4px 4px 0 0;
     border-bottom: 1px solid #1C1B1F;
 }
-.modal__content-btn{
+.modal__content-form button{
     width: 100%;
     height: 40px;
     border-radius: 8px;
     font-size: 16px;
     line-height: 40px;
     font-family: var(--Int);
+    background: var(--black);
+    color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.253);
+    border: 1px solid rgba(129, 126, 126, 0.233);
+
 }
 .modal__content-text{
     font-family: var(--Int);
@@ -178,11 +183,20 @@ a{
     line-height: 20px;
     color: var(--dev);
 }
-.modal__content-text a{
+.modal__content-reg a,
+.content-container .sign{
     text-decoration: underline;
+    background: none;
+    box-shadow: none;
+    border: none;
+    color: #000000;
 }
-.modal__content-text a:hover{
+.modal__content-reg a:hover{
     color: var(--navlist);
+}
+.modal__content-reg{
+    display: flex;
+    column-gap: 7px;
 }
 .content-section{
     width: 100%;

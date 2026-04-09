@@ -1,0 +1,13 @@
+        const modal__text = document.querySelector('.modal__content-text')
+        const modal__text_span = document.querySelector('.modal__content-text span')
+        modal__text_span.innerHTML = 'Sign in.'
+        modal__text.innerHTML = "Already have an account? "
+            this.closeModal.style.rowgap = '5px'
+            this.closeModal.style.display = 'flex'
+
+
+
+
+
+        modal__text_span.innerHTML = 'Join now.'
+        modal__text.innerHTML = "Don't have an account? "
