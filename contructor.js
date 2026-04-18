@@ -111,10 +111,16 @@ class Navbar {
         }
 
         this.closeModal.style.display = 'flex'
-        }
+        setTimeout(()=>{
+            this.modalContent.style.transform = 'scale(1)'
+        }, 100)
+    }
     CloseModal(e){
         if(!e.target.closest('.modal__content')){
-            this.closeModal.style.display = 'none'
+            this.modalContent.style.transform = 'scale(0)'
+            setTimeout(()=>{
+                this.closeModal.style.display = 'none'
+            }, 400)
     }
     }
 }
